@@ -1,23 +1,26 @@
-Read Me Template
-
-# SQL Challenge: Employee Tracker
+# Object-Relational Mapping (ORM) Challenge: E-commerce Back End
 
 <img src="./assets/img/" alt="screenshot of employee database" height="300px"/>
 
 ## Purpose
 
-A application where a user can write and save notes that need to be completed.
+As a manager at an internet retail company
+I WANT a back end for my e-commerce website that uses the latest technologies
+SO THAT my company can compete with other e-commerce companies
 
 ## Requirements
 
-Note-taking application
--WHEN I open the Note Taker then I am presented with a landing page with a link to a notes page
-
-- WHEN I click on the link to the notes page then I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-- WHEN I enter a new note title and the note’s text then a Save icon appears in the navigation at the top of the page
-- WHEN I click on the Save icon then the new note I have entered is saved and appears in the left-hand column with the other existing notes
-- WHEN I click on an existing note in the list in the left-hand column then that note appears in the right-hand column
-- WHEN I click on the Write icon in the navigation at the top of the page then I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+GIVEN a functional Express.js API
+WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
+THEN I am able to connect to a database using Sequelize
+WHEN I enter schema and seed commands
+THEN a development database is created and is seeded with test data
+WHEN I enter the command to invoke the application
+THEN my server is started and the Sequelize models are synced to the MySQL database
+WHEN I open API GET routes in Insomnia for categories, products, or tags
+THEN the data for each of these routes is displayed in a formatted JSON
+WHEN I test API POST, PUT, and DELETE routes in Insomnia
+THEN I am able to successfully create, update, and delete data in my database
 
 ## Screencastify
 
@@ -29,13 +32,16 @@ https://hartsfieldt.github.io/buyandsell-backend/
 
 https://github.com/hartsfieldt/buyandsell-backend
 
-## Heroku Deployment
+## Insomnia Deployment
 
-https://quiet-basin-55504.herokuapp.com/
+https://insomnia.rest/download
 
 ## Installation
 
-Run "npm i" to install the required modules: express.js
+"dotenv": "^8.2.0": In the command line use: npm install dotenv
+"express": "^4.17.1": In the command line use: npm i then npm i -y
+"mysql2": "^2.1.0": In the command line use: npm install --save mysql2
+"sequelize": "^5.21.7":In the command line use: npm i sequelize
 
 ## Contribution
 
@@ -44,7 +50,6 @@ Made with ❤️ by Teresa Hartsfield
 ## Front End
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
 
 ## Back End
 
